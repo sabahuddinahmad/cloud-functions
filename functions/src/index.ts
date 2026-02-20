@@ -28,39 +28,48 @@ const sendRevConfirmationMail = (email: string, name: string) => {
           Greetings!
           
           <br /><br />
-          Hope this email finds you well. I am Kashif Ahmad, writing to you on
-          behalf of the Sir Syed Global Scholar Award (SSGSA) Applications
-          Team. We thank you for being associated with the SSGSA for the past
-          few years. 
+          On behalf of the Sir Syed Global Scholar Award (SSGSA), we sincerely
+          appreciate your support to our program to empower aspiring students
+          for higher education abroad.
 
           <br /><br />
-          We are currently accepting applications, and expect to send those out
-          for review by February 24, 2023. <b>If you are willing to serve as a
-          reviewer for this session, please accept the invitation through the
-          link provided below.</b>
-
-          <br /><br />
-          <b>Link: https://www.ssgsa.us/reviewer/confirmation/${email}</b>
+          We are reaching out to invite you to serve as a reviewer for the 
+          upcoming SSGSA application cycle for the session 2026. Applications 
+          for this session are currently open and will close on March 06, 2026. 
+          We plan to distribute applications for review by March 16, 2026, and 
+          your participation in this process would be greatly valued.
           
           <br /><br />
-          You would have around 15 days to review approximately 15 applications
-          (at most). In order to assist you through the review process, SSGSA
-          Applications Team will also be organizing an orientation session on
-          Feb 18, 2023. You attendance is highly encouraged so that we can
-          ensure consistency in the reviews. We will send out the details once
-          you accept that invitation.
-          
-          <br /><br />
-          Should you have any questions about the review process. You can
-          either write to me at kkashif@alumni.purdue.edu or the Chair at
-          chair@ssgsa.us.
+          To confirm your willingness to serve as a reviewer, please click 
+          on the link below:
 
           <br /><br />
-          Thanks,
+          <b>Reviewer ConfirmationLink: https://www.ssgsa.us/reviewer/confirmation/${email}</b>
+                    
+          <br /><br />
+          Review Process:
           <br />
-          Kashif Ahmad
+          1. You will be assigned approximately 10-12 applications at most. It should not take more than 3 hours in total to review all the applications.
+          <br /> 
+          2. You will have around 15 days to review the applications.
           <br />
-          On behalf of SSGSA Applications Team
+          3. The SSGSA Applications Team will provide you with detailed guidelines via a separate email once you confirm your participation.
+          <br />
+          
+          <br /><br />
+          If you have any questions or need further clarification regarding the review process,
+          please feel free to reach out to us at application.ssgsa@gmail.com or chair@ssgsa.us. 
+
+          <br /><br /> 
+          Thank you for considering our invitation. Your support as a reviewer would be 
+          invaluable to both SSGSA and the students we serve.
+
+          <br /><br />
+          Warm regards,
+          <br />
+          Dr. Sabahuddin Ahmad & Ms. Rabia Omar
+          <br />
+          Co-Chairs SSGSA
         </p>
       </body>
     </html>
@@ -112,7 +121,7 @@ const sendRevSetsMail = (email: string, name: string, sets: string) => {
           
           <br /><br />
           We thank you again for agreeing to review the applications for the
-          SSGSA Application Cycle 2023-24. We have allotted 10 to 15
+          SSGSA Application Cycle 2026-27. We have allotted 10 to 15
           applications for you to review.
 
           <br /><br />
