@@ -120,36 +120,28 @@ const sendRevSetsMail = (email: string, name: string, sets: string) => {
           Greetings!
           
           <br /><br />
-          We thank you again for agreeing to review the applications for the
-          SSGSA Application Cycle 2026-27. We have allotted 10 to 15
-          applications for you to review.
+          Thank you for participating in the application review process for the
+          SSGSA Application Cycle 2026. We appreciate your commitment to this
+          holistic application review process.
 
           <br /><br />
-          If you have reviewed the SSGSA applications in the past, you will
-          mostly know the drill but there are a few updates that you must take
-          note of. We held an orientation session for the same on Feb 18, 2023
-          and we are providing the link to the slides and recording from our
-          orientation for your reference.
-
+          You have been allocated 12 to 15 applications for review. To assist you
+          in this task, we have provided detailed instructions and a grading rubric
+          in the SSGSA Reviewer Instructions.
+          
           <br /><br />
-          <b>Video:
-          https://drive.google.com/file/d/1LyHx2Ey55Yd5InmFJwUSdL7OrQI-W_El/view?usp=sharing
+          <b>SSGSA Reviewer Instructions:
+          https://drive.google.com/file/d/1TjlBHooKsph6KvDq_MgIYSV-Iq3p65Q5/view?usp=sharing
           </b>
 
           <br /><br />
-          <b>Slides:
-          https://docs.google.com/presentation/d/1lU7OPCbw1oifRJLxrwj7I5_FmyIs8C28/edit?usp=sharing&ouid=117039052523548927361&rtpof=true&sd=true
-          </b>
+          We kindly request that you review these materials before beginning your evaluations
+          to ensure consistency in our assessments. We would request you to dedicate at least 
+          10-15 mins for the review of each application for ensuring the high standard of the 
+          application review process.
 
-          <br /><br />
-          <b>We strongly encourage you to have a look at orientation slides and
-          recording before you start reviewing.</b>
-
-          <br /><br />
-          We have minor revisions to the grading rubric with details to bring
-          more consistency in grading. You can download the rubric by logging
-          in to the portal. Then, there are specific columns for entering the
-          grades from each section as per the rubric.
+          <b>Within the portal, there are specific columns designated for entering grades based
+          on the rubric criteria.</b>
 
           <br /><br />
           <b>Link to the portal: https://www.ssgsa.us/reviewer</b>
@@ -162,25 +154,27 @@ const sendRevSetsMail = (email: string, name: string, sets: string) => {
           click on portal
 
           <br /><br />
-          <b>Deadline:</b> March 10, 2022
+          <b>The deadline for completing your reviews is March 31, 2026.</b>
+          Should you have any questions or require assistance, please do not
+          hesitate to contact us at a chair@ssgsa.us or application.ssgsa@gmail.com. 
 
           <br /><br />
-          You have been allotted <b>Set ${sets}</b>. Please let us know if
-          it is different from the set in the portal or have any issues, please
-          do not hesitate to contact us at : contact@ssgsa.us or chair@ssgsa.us.
+          We kindly ask that you complete your reviews before the deadline. In the
+          event that you are unable to review the assigned applications, please
+          notify us at least 1 week before the deadline. This advance notice allows
+          us to arrange for alternative reviewers, ensuring the quality and timeliness
+          of our decision-making process.
           
           <br /><br />
-          Please try to complete the reviews before the deadline. If for any
-          reason, you are unable to review the allotted applications, <b>please
-          reach out to us at least a week before the deadline</b>. It becomes
-          difficult to arrange for alternate reviewers at the last moment,
-          causing issues in the review quality and inordinate delays in our
-          decisions.
+          Thank you once again for your valuable contribution to the SSGSA application
+          review process.
 
           <br /><br />
-          Best Regards,
+          Warm Regards,
           <br />
-          SSGSA Applications Team
+          Dr. Sabahuddin Ahmad & Ms. Rabia Omar
+          <br />
+          Co-chairs SSGSA
         </p>
       </body>
     </html>
