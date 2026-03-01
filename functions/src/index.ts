@@ -92,7 +92,7 @@ const sendRevConfirmationMail = (email: string, name: string) => {
 }
 
 
-const sendRevSetsMail = (email: string, name: string, sets: string) => {
+const sendRevSetsMail = (email: string, name: string, password: string) => {
   let mailTransporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -149,9 +149,7 @@ const sendRevSetsMail = (email: string, name: string, sets: string) => {
           <br /><br />
           <b>Username:</b> ${email}
           <br />
-          <b>Password:</b> The password you created at the time of signup. If
-          you don’t remember that, you have an option to reset it when you
-          click on portal
+          <b>Password:</b> ${password}
 
           <br /><br />
           <b>The deadline for completing your reviews is March 31, 2026.</b>
@@ -208,16 +206,15 @@ export const sendReviewerSetsMail =
   functions.https.onRequest((request, response) => {
     const email = request.query.email
     const name = request.query.name
-    let sets = request.query.sets
+    let password = request.query.password
 
     functions.logger.info(
       'Sending sets mail to reviewer ' +
       email + ' with data as (Name: ' +
-      name + ' and Sets: ' +
-      sets + ')',
+      name + ')',
       { structuredData: true }
     )
-    sendRevSetsMail(String(email), String(name), String(sets))
+    sendRevSetsMail(String(email), String(name), String(password))
       .then(() => response.status(200).send("Mail Sent to " + name))
-      .catch(() => response.status(400).send("Error occured while sending mail to " + name))
+      .catch(() => response.status(400).send("Error occured while sending mail to " + name + " (" + email + ")"))
   })
